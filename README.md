@@ -16,3 +16,8 @@
 * ローカルコミット
 * git remote add origin https://github.com/bizroboland-admin/training.git
 * git push -u origin master
+
+## Hosting
+* firebase init
+* firebase use goodlife-training-site
+* firebase deploy
