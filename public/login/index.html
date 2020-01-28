@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" charset="utf-8">
+<title>テスト会員登録</title>
+<script>
+function send()
+{
+    document.getElementById("inputDiv").style.display="none";
+    document.getElementById("outputDiv").style.display="block";
+    document.getElementById("lbl_name").innerText = document.getElementById("txt_name").value;
+    document.getElementById("lbl_mailAddress").innerText = document.getElementById("txt_mailAddress").value;
+    var userNo = Math.random()*1000000000;
+    userNo = "RPA"+userNo.toString().substring(0,8);
+    document.getElementById("lbl_userNo").innerText = userNo;
+}
+</script>
+
+
+
+<style>
+.contact-form {
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 30px 30px 0px 100px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border:#d0d0d0 solid 2px;
+}
+.contact-form .item {
+  margin-bottom: 10px;
+}
+
+
+input[type=submit] {
+  border: none;
+  outline: none;
+  display: block;
+  line-height: 30px;
+  width: 160px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  background-color: #696;
+  border-bottom: 4px solid #464;
+  cursor:pointer;
+
+  box-sizing: content-box;
+  transition:0.1s ease all
+}
+input[type=submit]:hover{
+  opacity:0.6;
+}
+
+input[name=btn_confirm],
+input[name=btn_submit],
+input[name=btn_back] {
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 100%;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #2887d1;
+	background: #4eaaf1;
+}
+input[name=btn_back] {
+	margin-right: 20px;
+	box-shadow: 0 3px 0 #777;
+	background: #999;
+}
+</style>
+</head>
+<body>
+ <div id="inputDiv" class="contact-form" >
+  <table>
+   		<tr>
+   			<td class="item" colspan="2" align="center">
+		   		<p style="font-size: 20px;font-weight: bold;">会員情報登録</p>
+  			</td>
+  		</tr>
+  		<tr><td class="item" width="120px">　</td>
+  			<td class="item" width="220px">　</td>
+  		</tr>
+  		<tr><td class="item"> <label class="label">名前</label> </td>
+  			<td class="item"> <input id="txt_name" type="text"> </td>
+  		</tr>
+  		<tr><td class="item">　</td>
+  			<td class="item">　 </td>
+  		</tr>
+  		<tr><td class="item"> <label class="label">メールアドレス　</label> </td>
+  			<td class="item"> <input id="txt_mailAddress" type="text"> </td>
+  		</tr>
+  		<tr><td class="item">　</td>
+  			<td class="item">　</td>
+  		</tr>
+  		<tr><td class="item">　</td>
+  			<td class="item">　</td>
+  		</tr>
+  		<tr><td class="item" colspan="2" align="center">
+  		  <div class="item no-label">
+		    <input  type="submit" name="btn_confirm" value="登録" onclick="send()">
+		  </div>
+  		</td>
+  		</tr>
+  </table>
+</div>
+
+<div id="outputDiv" style="display:none" class="contact-form" >
+	<table>
+		<tr>
+			<td class="item" colspan="2" align="center">
+				<p style="font-size: 20px;font-weight: bold;">会員登録成功</p>
+			</td>
+		</tr>
+		<tr><td class="item">　</td>
+			<td class="item"> </td>
+		</tr>
+		<tr>
+			<td class="item" width="120px"> <label class="label">会員番号</label> </td>
+			<td class="item" width="220px"> <LABEL id="lbl_userNo"></LABEL> </td>
+		</tr>
+		<tr><td class="item">　</td>
+			<td class="item"> </td>
+		</tr>
+		<tr><td class="item"> <label class="label">名前</label> </td>
+			<td class="item"> <LABEL id="lbl_name" class="label"> </td>
+		</tr>
+		<tr><td class="item">　</td>
+			<td class="item"> </td>
+		</tr>
+		<tr><td class="item"><label class="label">メールアドレス　</label> </td>
+			<td class="item"> <LABEL id="lbl_mailAddress"></LABEL> </td>
+		</tr>
+		<tr><td class="item">　</td>
+			<td class="item"> </td>
+		</tr>
+		<tr><td class="item">　</td>
+			<td class="item"> </td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
