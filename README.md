@@ -21,3 +21,10 @@
 * firebase init
 * firebase use goodlife-training-site
 * firebase deploy
+
+## ローカルでテストしてサイトにデプロイする
+* firebase serve --only hosting
+## 
+* firebase serve
+* firebase serve --only functions,hosting
+* firebase serve --only functions
