@@ -13,3 +13,6 @@
 * git init 
   * Reinitialized existing Git repository in C:/_source/TrainingSite/.git/
 * edit .gitignore
+* ローカルコミット
+* git remote add origin https://github.com/bizroboland-admin/training.git
+* git push -u origin master
