@@ -2694,7 +2694,7 @@ float: left;
         text-overflow: ellipsis; }
       .content-aside .aside-box .block-list li .category-tag {
         margin: 0 0 4px; }
-        .content-aside .aside-box .block-list li .category-tag span {
+        /* .content-aside .aside-box .block-list li .category-tag span { */
           /*
           color: #fff;
           padding: 1px 6px;
@@ -2703,7 +2703,7 @@ float: left;
           font-size: 1.3rem;
           vertical-align: top;
           margin: 0 0 4px;
-          */ }
+          }*/ 
       .content-aside .aside-box .block-list li > .img-thumb,
       .content-aside .aside-box .block-list li > .img-circle {
         position: absolute;
@@ -4050,7 +4050,7 @@ border: 1px solid #FF0404; }
         .ranking-table tbody tr td .rank-circle {
           position: absolute;
           top: 54px;
-          left: 8px; }
+          left: 8px; 
         
               font-family: "icon";
               font-size: 2.4rem;
@@ -4331,8 +4331,8 @@ border: 1px solid #FF0404; }
 /* ============================================ 
     bookmarks
  ============================================ */
-.content-main {
-  /*sns bookmarks*/ }
+/* .content-main { */
+  /*sns bookmarks}*/ 
   .content-main .bookmarks {
     position: relative;
     height: 20px;
