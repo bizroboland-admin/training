@@ -7,7 +7,8 @@
 1. [映画サイト 2](https://goodlife-training-site.firebaseapp.com/movie/2/)
 1. [映画サイト 3](https://goodlife-training-site.firebaseapp.com/movie/3/)
 1. [映画サイト 4](https://goodlife-training-site.firebaseapp.com/movie/4/)
-
+## 株価サイト
+1. [株価サイト 1](http://localhost:5000/finance/1/)
 
 ## Github
 * git init 
@@ -28,3 +29,5 @@
 * firebase serve
 * firebase serve --only functions,hosting
 * firebase serve --only functions
+
+* firebase hosting:disable   : 削除
