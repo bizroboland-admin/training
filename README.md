@@ -9,7 +9,7 @@
 1. [映画サイト 4](https://goodlife-training-site.firebaseapp.com/movie/4/)
 ## 株価サイト
 1. [株価サイト 1](https://goodlife-training-site.firebaseapp.com/finance/1/)
-1. [株価サイト 2](https://goodlife-training-site.firebaseapp.com/finance/2/
+1. [株価サイト 2](https://goodlife-training-site.firebaseapp.com/finance/2/)
 1. [株価サイト 3](https://goodlife-training-site.firebaseapp.com/finance/3/)
 1. [株価サイト 4](https://goodlife-training-site.firebaseapp.com/finance/4/)
 
